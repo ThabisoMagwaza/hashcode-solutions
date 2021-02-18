@@ -4,7 +4,8 @@
   "description": "Collection of google hashcode solutions",
   "main": "utils.js",
   "scripts": {
-    "test2015": "jest --verbose ./2015/solution2"
+    "test2015": "jest --verbose ./2015/solution2",
+    "run2015": "node ./2015/solution2/solution2.js"
   },
   "repository": {
     "type": "git",

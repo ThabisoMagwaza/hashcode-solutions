@@ -7,7 +7,7 @@ const readline = require('readline')
  * @param {string} file path to file 
  * @returns {Array} Array containing lines
  */
-module.exports.getLines =  file => {
+module.exports.getLines =  (file, separator = '\n') => {
     const lines = fs.readFileSync(file).toString();
-    return lines.split('\n')
+    return lines.split(separator)
 }
