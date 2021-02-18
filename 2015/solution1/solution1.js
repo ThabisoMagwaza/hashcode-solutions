@@ -1,5 +1,5 @@
 const fs = require('fs');
-const {getLines} = require('../utils');
+const {getLines} = require('../../utils');
 
 const lines = getLines('sample.in');
 
