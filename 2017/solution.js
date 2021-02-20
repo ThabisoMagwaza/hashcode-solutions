@@ -65,3 +65,5 @@ caches.forEach((cache,id) => {
     if(vidsStr) outStr = `${outStr}\n${id} ${vidsStr}` 
 })
 
+console.log(outStr);
+

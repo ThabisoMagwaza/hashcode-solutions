@@ -37,11 +37,11 @@ for(let i = 4; i < (4 + numWarehouses * 2); i += 2 ){
 // initialize orders
 const numOders = parseInt(lines[4 +(numWarehouses * 2)])
 const orders = []
-const orderStates = {
-    0: NOT_DISCOVERED,
-    1: DISCOVERED,
-    2: FULFILLED
-}
+// const orderStates = {
+//     0: NOT_DISCOVERED,
+//     1: DISCOVERED,
+//     2: FULFILLED
+// }
 
 for(let i = 5 +(numWarehouses * 2); i < lines.length ; i+=3){
     orders.push({
