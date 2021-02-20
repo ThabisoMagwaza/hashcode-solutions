@@ -5,7 +5,9 @@
   "main": "utils.js",
   "scripts": {
     "test2015": "jest --verbose ./2015/solution2",
-    "run2015": "node ./2015/solution2/solution2.js"
+    "run2015": "node ./2015/solution2/solution2.js",
+    "run2016": "node ./2016/solution.js",
+    "test2016": "jest --verbose ./2016"
   },
   "repository": {
     "type": "git",
