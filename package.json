@@ -9,7 +9,9 @@
     "run2016": "node ./2016/solution.js",
     "test2016": "jest --verbose ./2016",
     "test2017": "jest --verbose ./2017",
-    "run2017": "node ./2017/solution.js"
+    "run2017": "node ./2017/solution.js",
+    "run2018": "node ./2018/solution.js",
+    "test2018": "jest --verbose ./2018"
   },
   "repository": {
     "type": "git",
