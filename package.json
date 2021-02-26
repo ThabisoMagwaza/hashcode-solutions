@@ -13,7 +13,9 @@
     "run2018": "node ./2018/solution.js",
     "test2018": "jest --verbose ./2018",
     "test2019": "jest --verbose ./2019",
-    "run2019": "node ./2019/solution.js"
+    "test2021": "jest --verbose ./2021/qualification",
+    "run2019": "node ./2019/solution.js",
+    "run2021": "node ./2021/qualification/solution.js"
   },
   "repository": {
     "type": "git",
